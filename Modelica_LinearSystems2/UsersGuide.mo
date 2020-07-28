@@ -536,6 +536,99 @@ in the future.
      <a href=\"modelica://Modelica_LinearSystems2.Utilities.Types\">Modelica_LinearSystems2.Utilities.Types</a>
      instead</li>
 </ul>
+
+<h4>
+Non-backward compatible changes
+</h4>
+
+<ul>
+<li> Move Modelica_LinearSystems2.Internal.Streams into 
+     <a href=\"modelica://Modelica_LinearSystems2.Utilities.Streams\">LinearSystems2.Utilities.Streams</a>
+     </li>
+</html>"));
+    end Version_2_5_0;
+
+    class Version_2_5_0 "Version 2.5.0-dev (???, 2020)"
+      extends Modelica.Icons.ReleaseNotes;
+
+      annotation (Documentation(info="<html>
+<p>
+This version requires the <strong>Modelica 4.0.0</strong> Library.
+It is backward compatible to the previous version 2.4.0.
+</p>
+
+<h4>
+Improvements in this version
+</h4>
+
+<ul>
+<li> Utilize ModelicaIO functions for matrix I/O, see issue
+     <a href=\"https://github.com/modelica/Modelica_LinearSystems2/issues/34\">#34</a>.
+     Concerning functions are marked obsolete.</li>
+</ul>
+
+<h4>
+Obsolete operator record Modelica_LinearSystems2.Math.Complex
+</h4>
+<p>
+The functionality of this record is given by the top-level operator
+record <a href=\"modelica://Complex\">Complex</a> now and
+most of the functions can be found in the library 
+<a href=\"modelica://Modelica.ComplexMath\">Modelica.ComplexMath</a>.
+The remaining functions contained in this record where moved into
+<a href=\"modelica://Modelica_LinearSystems2.ComplexMathAdds\">ComplexMathAdds</a>.
+</p>
+<p>
+Therefore, the record <code>Modelica_LinearSystems2.Math.Complex</code>
+was marked obsolete and shall not be used anymore.
+The provided conversion script ensures proper transformation
+of the record and its functions.
+The record will be removed from the Library in the future.
+</p>
+<p>
+See also 
+<a href=\"modelica://Modelica_LinearSystems2.UsersGuide.GettingStarted.ComplexNumbers\">UsersGuide.GettingStarted.ComplexNumbers</a>
+for some details and
+<a href=\"modelica://Modelica_LinearSystems2.Math.Complex\">Modelica_LinearSystems2.Math.Complex</a>
+for inheritance.
+</p>
+
+
+<h4>
+Obsolete classes
+</h4>
+<p>
+The following classes are obsolete and will be removed from the Library
+in the future.
+</p>
+
+<ul>
+<li> Modelica_LinearSystems2.Math.Matrices.cholesky</li>
+<li> Modelica_LinearSystems2.Math.Matrices.conditionNumber</li>
+<li> Modelica_LinearSystems2.Math.Matrices.det</li>
+<li> Modelica_LinearSystems2.Math.Matrices.fliplr</li>
+<li> Modelica_LinearSystems2.Math.Matrices.flipud</li>
+<li> Modelica_LinearSystems2.Math.Matrices.hessenberg</li>
+<li> Modelica_LinearSystems2.Math.Matrices.leastSquares2</li>
+<li> Modelica_LinearSystems2.Math.Matrices.LU</li>
+<li> Modelica_LinearSystems2.Math.Matrices.LU_solve</li>
+<li> Modelica_LinearSystems2.Math.Matrices.LU_solve2</li>
+<li> Modelica_LinearSystems2.Math.Matrices.toUpperHessenberg</li>
+<li> Modelica_LinearSystems2.Math.Matrices.norm</li>
+<li> Modelica_LinearSystems2.Math.Matrices.nullspace</li>
+<li> Modelica_LinearSystems2.Math.Matrices.rsf2</li>
+<li> Modelica_LinearSystems2.Math.Matrices.solve</li>
+<li> Modelica_LinearSystems2.Math.Matrices.solve2</li>
+<li> Modelica_LinearSystems2.Math.Matrices.trace</li>
+<li> Modelica_LinearSystems2.Math.Matrices.Internal.readMatrixGain</li>
+<li> Modelica_LinearSystems2.Math.Vectors.find</li>
+<li> Modelica_LinearSystems2.Math.Vectors.length</li>
+<li> Modelica_LinearSystems2.Internal.Streams.readMatrixInternal</li>
+<li> Modelica_LinearSystems2.Internal.Streams.readMatrixOnFileSize</li>
+<li> Modelica_LinearSystems2.Types &ndash; use types from
+     <a href=\"modelica://Modelica_LinearSystems2.Utilities.Types\">Modelica_LinearSystems2.Utilities.Types</a>
+     instead</li>
+</ul>
 </html>"));
     end Version_2_5_0;
 
