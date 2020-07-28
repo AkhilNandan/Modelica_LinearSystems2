@@ -455,7 +455,7 @@ This library is based on the following references:
   end Literature;
 
   package ReleaseNotes "Release notes"
-    class Version_2_5_0 "Version 2.5.0-dev (???, 2020)"
+    class Version_3_0_0 "Version 3.0.0-dev (???, 2020)"
       extends Modelica.Icons.ReleaseNotes;
 
       annotation (Documentation(info="<html>
@@ -546,7 +546,7 @@ Non-backward compatible changes
      <a href=\"modelica://Modelica_LinearSystems2.Utilities.Streams\">LinearSystems2.Utilities.Streams</a>
      </li>
 </html>"));
-    end Version_2_5_0;
+    end Version_3_0_0;
 
     class Version_2_5_0 "Version 2.5.0-dev (???, 2020)"
       extends Modelica.Icons.ReleaseNotes;
