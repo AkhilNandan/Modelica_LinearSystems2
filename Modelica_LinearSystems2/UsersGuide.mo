@@ -461,7 +461,7 @@ This library is based on the following references:
       annotation (Documentation(info="<html>
 <p>
 This version requires the <strong>Modelica 4.0.0</strong> Library.
-It is backward compatible to the previous version 2.4.0.
+It is <strong>not</strong> backward compatible to the previous version 2.4.0.
 </p>
 
 <h4>
@@ -505,8 +505,7 @@ for inheritance.
 Obsolete classes
 </h4>
 <p>
-The following classes are obsolete and will be removed from the Library
-in the future.
+The following classes were obsolete and removed from the Library.
 </p>
 
 <ul>
